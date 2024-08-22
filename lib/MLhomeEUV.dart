@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'hotel_details.dart';
-import 'hotels_info.dart'; // Make sure to import the necessary files
+import 'MLhotel_detailsWCD.dart';
+import 'MLhotels_infoCER.dart'; // Make sure to import the necessary files
 
-class HomePage extends StatefulWidget {
-  const HomePage({super.key});
+class MLHomePageCER extends StatefulWidget {
+  const MLHomePageCER({super.key});
 
   @override
-  State<HomePage> createState() => _HomePageState();
+  State<MLHomePageCER> createState() => _HomePageState();
 }
 
-class _HomePageState extends State<HomePage> {
+class _HomePageState extends State<MLHomePageCER> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -62,7 +62,7 @@ class _HomePageState extends State<HomePage> {
                       hotel.place,
                       'assets/${hotel.id}.png',
                       // Assuming the image asset is named by hotel ID
-                      () {
+                          () {
                         Navigator.push(
                           context,
                           MaterialPageRoute(

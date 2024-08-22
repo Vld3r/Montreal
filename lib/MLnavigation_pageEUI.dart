@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:montreal/home.dart';
-import 'package:montreal/interesting.dart';
-import 'package:montreal/quiz.dart';
-import 'package:montreal/settings.dart';
+import 'package:montreal/MLhomeEUV.dart';
+import 'package:montreal/MLinterestingICU.dart';
+import 'package:montreal/MLquizEII.dart';
+import 'package:montreal/MLsettingsCEI.dart';
 
 class NavigationPage extends StatefulWidget {
   @override
@@ -16,9 +16,9 @@ class _NavigationPageState extends State<NavigationPage> {
 
   // List of pages
   final List<Widget> _pages = [
-    HomePage(),
-    Interesting(),
-    Settings(),
+    MLHomePageCER(),
+    MLInterestingCET(),
+    MLSettingsCER(),
     Quiz(),
   ];
 

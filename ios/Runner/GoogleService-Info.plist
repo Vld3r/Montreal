@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API_KEY</key>
+	<string>AIzaSyADoDzh5PZXlcqQnaNdNm0y-rUekHZ2GU0</string>
+	<key>GCM_SENDER_ID</key>
+	<string>671012871873</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.lotoq.sertyy</string>
+	<key>PROJECT_ID</key>
+	<string>lotoqubec-de-montral</string>
+	<key>STORAGE_BUCKET</key>
+	<string>lotoqubec-de-montral.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:671012871873:ios:4ac83432bc24e29f5fbe40</string>
+</dict>
+</plist>

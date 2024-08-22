@@ -1,5 +1,5 @@
 // Static list of hotels with default comments
-import 'hotel_details.dart';
+import 'MLhotel_detailsWCD.dart';
 
 List<Hotel> hotels = [
   Hotel(

@@ -1,19 +1,19 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
-class FactDetails extends StatefulWidget {
+class MLFactDetailsCEJ extends StatefulWidget {
   final String image;
   final String name;
   final String fact;
 
-  const FactDetails(
+  const MLFactDetailsCEJ(
       {super.key, required this.image, required this.name, required this.fact});
 
   @override
-  State<FactDetails> createState() => _FactDetailsState();
+  State<MLFactDetailsCEJ> createState() => _FactDetailsState();
 }
 
-class _FactDetailsState extends State<FactDetails> {
+class _FactDetailsState extends State<MLFactDetailsCEJ> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
